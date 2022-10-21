@@ -73,15 +73,20 @@ input {
     border: #6d6888 0.1rem solid;
     padding: 20px;
     margin-left: 5%;
-    position: relative;
-
 }
+
 .index_cont{
-    background: #3a336d;
+    background: #403783;
     width: 8%;
+    float: left;
+    padding-left: 1.5rem;
+    margin-right: 10px;
+    font-size: ;
 }
 .line_cont{
     width: 70%;
+    padding-left: 1rem;
+    float: left;
 }
 .btns{
     width: 90%;

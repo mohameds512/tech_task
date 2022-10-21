@@ -3,7 +3,7 @@
         <input id="input_path" v-model="file_path" type="text" placeholder="file path">
         <button id="view_btn"  @click="getPath()">view</button><br>
         <div v-if="lines.length>0">
-            <div class="file_cont"  >
+            <div class="file_cont">
                 <div v-for="(line , index) in lines " :key="index">
                     <div> <p class="index_cont"> {{ str_ind + index +1}} </p> {{ line }} </div>
                 </div>
