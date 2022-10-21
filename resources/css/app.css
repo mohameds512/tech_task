@@ -1,0 +1,95 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fira sans', sans-serif;
+}
+
+body {
+
+    background: #423c6d;
+    color:#FFF;
+}
+.login_body{
+    background:#a59ce7 ;
+    width: 40%;
+    border: #000 1px ;
+    position: relative;
+    margin  : 10% 30%;
+    border-radius: 3px;
+}
+.login_content{
+    margin: 50px;
+    padding: 20px;
+}
+.log_title{
+    padding: 10px 45%;
+    font-size: 2rem;
+}
+
+input {
+    padding: 9px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.log_btn{
+    border: 1px solid #e0e0e0;
+    padding: 9px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 84%;
+    margin-top: 10px;
+}
+.div_cont
+{
+    background:#a59ce7 ;
+    width: 60%;
+    border: #000 1px ;
+    position: relative;
+    margin  : 5% 20%;
+    border-radius: 3px;
+    padding: 25px;
+}
+#input_path{
+    width: 80%;
+}
+#view_btn{
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3%;
+    width: 7%;
+    font-size: 20px;
+    padding: 4px;
+}
+.file_cont
+{
+    width: 90%;
+    border: #6d6888 0.1rem solid;
+    padding: 20px;
+    margin-left: 5%;
+    position: relative;
+
+}
+.index_cont{
+    background: #3a336d;
+    width: 8%;
+}
+.line_cont{
+    width: 70%;
+}
+.btns{
+    width: 90%;
+    margin-left: 5%;
+}
+.btn{
+    width: 25%;
+    margin-top: 5px ;
+    padding: 5px;
+    cursor: pointer;
+}
