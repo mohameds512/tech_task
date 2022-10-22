@@ -1,5 +1,8 @@
 <template>
     <div class="div_cont">
+        <div v-if="checkPath !=''" style="text-align:center ; color: rgb(182, 0, 0);">
+            {{checkPath}}
+        </div>
         <input id="input_path" v-model="file_path" type="text" placeholder="file path">
         <button id="view_btn"  @click="getPath()">view</button><br>
         <div v-if="lines.length>0">
@@ -45,6 +48,7 @@ export default ({
             file_path:'',
             content:[],
             lines:[],
+            checkPath:'',
             str_ind: 0,
             slices_num: 10,
             lastSlices:0,
@@ -60,11 +64,13 @@ export default ({
                 this.getLines();
             })
             .catch(err=>{
+                this.checkPath = "check file path";
                 console.log(err);
             })
         },
         getLines(){
             this.lines = this.content.slice(this.str_ind , this.slices_num);
+            this.checkPath = '';
         },
         goStart(){
             if(this.str_ind == 0){

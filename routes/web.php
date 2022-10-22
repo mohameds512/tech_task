@@ -18,5 +18,6 @@ use App\Http\Controllers\getFile;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('test',[getFile::class,'test']);
+
+
 

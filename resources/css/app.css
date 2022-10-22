@@ -27,7 +27,11 @@ body {
     padding: 10px 45%;
     font-size: 2rem;
 }
-
+.alert-error{
+    padding: 10px;
+    text-align: center;
+    color: rgb(182, 0, 0);
+}
 input {
     padding: 9px 15px;
     border: 1px solid #e0e0e0;
@@ -51,7 +55,7 @@ input {
     width: 60%;
     border: #000 1px ;
     position: relative;
-    margin  : 5% 20%;
+    margin  : 10% 20%;
     border-radius: 3px;
     padding: 25px;
 }
@@ -79,9 +83,8 @@ input {
     background: #403783;
     width: 8%;
     float: left;
-    padding-left: 1.5rem;
     margin-right: 10px;
-    font-size: ;
+    text-align: center;
 }
 .line_cont{
     width: 70%;
